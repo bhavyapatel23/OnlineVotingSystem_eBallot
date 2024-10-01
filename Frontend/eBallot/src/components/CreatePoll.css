@@ -1,0 +1,21 @@
+.createpoll_content {
+    background-color: rgb(201, 217, 231);
+    border-radius: 5px;
+    
+    width: 40vw; 
+}
+@media (max-width: 650px) {
+    .createpoll_content {
+        width: 85%;
+       
+    }
+    #polldate{
+        display: flex;
+    }
+}
+@media (max-width: 900px) {
+    .createpoll_content {
+        width: 70%;
+     
+    }
+}

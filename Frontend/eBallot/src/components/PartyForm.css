@@ -1,0 +1,30 @@
+.parent {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center; /* centers vertically */
+    height: 90vh; /* full viewport height, adjust if needed */
+}
+
+.partyform_content {
+    background-color: rgb(201, 217, 231);
+    border-radius: 5px;
+    
+    width: 40vw; 
+}
+.partyform_content #addparty_btn{
+    margin-top: 2vh;
+}
+@media (max-width: 650px) {
+    .partyform_content {
+        width: 85%;
+       /* Make it a bit wider on smaller screens */
+        /* Reduce padding if necessary */
+    }
+}
+@media (max-width: 900px) {
+    .partyform_content {
+        width: 70%;
+       /* Make it a bit wider on smaller screens */
+         /* Reduce padding if necessary */
+    }
+}
